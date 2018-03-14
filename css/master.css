@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+h1 {
+  font-family: 'Rammetto One', cursive;
+}
+
 img {
   width: 100%;
 }
@@ -32,4 +36,16 @@ img {
 
 .a5 {
 
+}
+
+@media screen and (max-width: 1000px) {
+  .col {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .col {
+    width: 100%;
+  }
 }
