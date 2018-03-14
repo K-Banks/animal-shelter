@@ -1,10 +1,28 @@
+body {
+  font-size: 20px;
+  background-image: url("../img/bg.jpg");
+}
+
 .wrapper {
     width: 90%;
     margin: auto;
 }
 
 h1 {
+  font-size: 75px;
   font-family: 'Rammetto One', cursive;
+  text-align: center;
+  color: #fd5085;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3, h4 {
+  color: #fd5085;
+  text-shadow: 1px 1px black;
 }
 
 img {
@@ -14,8 +32,11 @@ img {
 .col {
   box-sizing: border-box;
   float: left;
-  width: 20%;
+  width: 19%;
   padding: 10px;
+  border: 3px solid #fd5085;
+  border-radius: 4px;
+  margin-left: 2px;
 }
 
 .a1 {
